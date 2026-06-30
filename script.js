@@ -82,7 +82,7 @@ function draw(){
         x.arc(H.x,H.y,H.r,0,Math.PI*2);
         x.clip();
 
-        let sc=Math.max(910/im.width,910/im.height)*z;
+        let sc=Math.max(800/im.width,800/im.height)*z;
         let w=im.width*sc;
         let h=im.height*sc;
 
