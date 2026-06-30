@@ -104,7 +104,7 @@ function draw(){
     let sz=34;
 
     do{
-        x.font=sz+"px 'Hiragenda'";
+        x.font=sz+"px Hiragenda";
         if(x.measureText(t).width<520) break;
         sz--;
     }while(sz>20);
