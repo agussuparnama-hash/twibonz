@@ -108,9 +108,9 @@ t = t
 
     do{
         x.font=sz+"px Hiragenda";
-        if(x.measureText(t).width<520) break;
+        if(x.measureText(t).width<650) break;
         sz--;
-    }while(sz>20);
+    }while(sz>28);
 
     x.textAlign='center';
     x.lineWidth=8;
