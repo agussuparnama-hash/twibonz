@@ -67,7 +67,11 @@ c.onmousemove=e=>{
     draw();
 };
 
-fr.onload=draw;
+fr.onload=()=>{
+
+    document.fonts.ready.then(draw);
+
+};
 
 function draw(){
 
