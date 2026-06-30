@@ -104,7 +104,7 @@ function draw(){
 t = t
     .toLowerCase()
     .replace(/\b\w/g, huruf => huruf.toUpperCase());
-    let sz=34;
+    let sz=46;
 
     do{
         x.font=sz+"px Hiragenda";
