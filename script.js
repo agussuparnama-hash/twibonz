@@ -106,7 +106,7 @@ function draw(){
     x.fillStyle='#0B56B5';
 
     const namaX = 540;
-const namaY = 355;
+const namaY = 605;
 
 x.strokeText(t, namaX, namaY);
 x.fillText(t, namaX, namaY);
