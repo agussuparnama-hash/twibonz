@@ -9,11 +9,11 @@ let z=1;
 
 // Posisi awal foto
 let px = 540;
-let py = 480;
+let py = 520;
 
 const H = {
     x: 540,
-    y: 480,
+    y: 520,
     r: 385
 };
 
@@ -82,7 +82,7 @@ function draw(){
         x.arc(H.x,H.y,H.r,0,Math.PI*2);
         x.clip();
 
-        let sc=Math.max(920/im.width,920/im.height)*z;
+        let sc=Math.max(940/im.width,940/im.height)*z;
         let w=im.width*sc;
         let h=im.height*sc;
 
