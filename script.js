@@ -14,8 +14,8 @@ let py=335;
 // Area foto
 const H={
     x:540,
-    y:540,
-    r:285
+    y:340,
+    r:385
 };
 
 document.getElementById('foto').onchange=e=>{
@@ -106,7 +106,7 @@ function draw(){
     x.fillStyle='#0B56B5';
 
     const namaX = 540;
-const namaY = 255;
+const namaY = 355;
 
 x.strokeText(t, namaX, namaY);
 x.fillText(t, namaX, namaY);
