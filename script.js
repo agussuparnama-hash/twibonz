@@ -15,7 +15,7 @@ let py=335;
 const H={
     x:540,
     y:540,
-    r:385
+    r:285
 };
 
 document.getElementById('foto').onchange=e=>{
@@ -106,7 +106,7 @@ function draw(){
     x.fillStyle='#0B56B5';
 
     const namaX = 540;
-const namaY = 155;
+const namaY = 255;
 
 x.strokeText(t, namaX, namaY);
 x.fillText(t, namaX, namaY);
