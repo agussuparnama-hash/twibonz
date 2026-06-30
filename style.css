@@ -1,1 +1,7 @@
+@font-face {
+    font-family: "Hiragenda";
+    src: url("fonts/Hiragenda.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 body{margin:0;font-family:Poppins,sans-serif;background:#eef3f8}.container{display:flex;gap:20px;padding:20px;flex-wrap:wrap;justify-content:center}.right{background:#083a7a;color:#fff;padding:20px;border-radius:12px;width:280px}canvas{width:700px;max-width:100%;background:#dfefff;border-radius:12px}.controls{display:grid;gap:10px;margin-top:10px}button{padding:10px;background:#17a34a;color:#fff;border:none;border-radius:8px}
