@@ -1,0 +1,1 @@
+Tambahkan frame.png transparan pada folder ini.
