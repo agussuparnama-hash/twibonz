@@ -8,14 +8,13 @@ let im=null;
 let z=1;
 
 // Posisi awal foto
-let px=540;
-let py=335;
+let px = 540;
+let py = 360;
 
-// Area foto
-const H={
-    x:540,
-    y:340,
-    r:385
+const H = {
+    x: 540,
+    y: 360,
+    r: 385
 };
 
 document.getElementById('foto').onchange=e=>{
