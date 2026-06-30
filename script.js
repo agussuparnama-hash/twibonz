@@ -14,7 +14,7 @@ let py=335;
 // Area foto
 const H={
     x:540,
-    y:335,
+    y:540,
     r:385
 };
 
@@ -106,7 +106,7 @@ function draw(){
     x.fillStyle='#0B56B5';
 
     const namaX = 540;
-const namaY = 855;
+const namaY = 155;
 
 x.strokeText(t, namaX, namaY);
 x.fillText(t, namaX, namaY);
