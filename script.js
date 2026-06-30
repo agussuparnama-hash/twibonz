@@ -30,15 +30,12 @@ document.getElementById('foto').onchange=e=>{
     r.readAsDataURL(f);
 };
 
-document.getElementById('zoom').oninput=e=>{
-    z=+e.target.value;
-    document.fonts.ready.then(() => {
+document.getElementById('zoom').oninput = e => {
 
-    console.log("FONT READY");
+    z = +e.target.value;
 
     draw();
 
-});draw();
 };
 
 document.getElementById('nama').oninput=draw;
@@ -85,7 +82,7 @@ function draw(){
         x.arc(H.x,H.y,H.r,0,Math.PI*2);
         x.clip();
 
-        let sc=Math.max(1080/im.width,1080/im.height)*z;
+        let sc=Math.max(900/im.width,900/im.height)*z;
         let w=im.width*sc;
         let h=im.height*sc;
 
