@@ -119,7 +119,8 @@ t = t
 
     const namaX = 540;
 const namaY = 605;
-
+console.log("Nilai t =", t);
+console.log("Font =", x.font);
 x.strokeText(t, namaX, namaY);
 x.fillText(t, namaX, namaY);
 }
