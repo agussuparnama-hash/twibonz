@@ -8,12 +8,12 @@ let im=null;
 let z=1;
 
 // Posisi awal foto
-let px = 550;
-let py = 380;
+let px = 540;
+let py = 360;
 
 const H = {
-    x: 550,
-    y: 380,
+    x: 540,
+    y: 360,
     r: 385
 };
 
