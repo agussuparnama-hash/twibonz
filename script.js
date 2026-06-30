@@ -32,7 +32,13 @@ document.getElementById('foto').onchange=e=>{
 
 document.getElementById('zoom').oninput=e=>{
     z=+e.target.value;
+    document.fonts.ready.then(() => {
+
+    console.log("FONT READY");
+
     draw();
+
+});draw();
 };
 
 document.getElementById('nama').oninput=draw;
