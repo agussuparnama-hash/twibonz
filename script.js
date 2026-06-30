@@ -9,11 +9,11 @@ let z=1;
 
 // Posisi awal foto
 let px = 540;
-let py = 320;
+let py = 280;
 
 const H = {
     x: 540,
-    y: 320,
+    y: 280,
     r: 385
 };
 
