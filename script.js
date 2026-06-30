@@ -78,9 +78,19 @@ function draw(){
 
         x.save();
 
-        x.beginPath();
-        x.arc(H.x,H.y,H.r,0,Math.PI*2);
-        x.clip();
+        const ry = 1.05; // 1 = normal, >1 lebih tinggi, <1 lebih pendek
+
+x.beginPath();
+x.ellipse(
+    H.x,          // titik tengah X
+    H.y,          // titik tengah Y
+    H.r,          // radius horizontal
+    H.r * ry,     // radius vertikal
+    0,
+    0,
+    Math.PI * 2
+);
+x.clip();
 
         let sc=Math.max(960/im.width,960/im.height)*z;
         let w=im.width*sc;
