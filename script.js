@@ -94,7 +94,7 @@ function draw(){
     let sz=34;
 
     do{
-        x.font=sz+"px Pacifico";
+        x.font=sz+"px Wanida Toffy";
         if(x.measureText(t).width<520) break;
         sz--;
     }while(sz>20);
