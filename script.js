@@ -105,8 +105,11 @@ function draw(){
     x.strokeStyle='#FFFFFF';
     x.fillStyle='#0B56B5';
 
-    x.strokeText(t,540,540);
-    x.fillText(t,540,540);
+    const namaX = 540;
+const namaY = 455;
+
+x.strokeText(t, namaX, namaY);
+x.fillText(t, namaX, namaY);
 }
 
 function downloadPNG(){
