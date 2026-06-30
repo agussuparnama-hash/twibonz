@@ -99,7 +99,9 @@ function draw(){
         x.drawImage(fr,0,0,1080,1080);
     }
 
-    let t=(document.getElementById('nama').value||'NAMA PESERTA').toUpperCase();
+    let t = document.getElementById('nama').value || 'Nama Peserta';
+
+t = t.toLowerCase().replace(/\b\w/g, huruf => huruf.toUpperCase());
 
     let sz=34;
 
